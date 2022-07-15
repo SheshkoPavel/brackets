@@ -16,7 +16,7 @@ module.exports = function check(str, bracketsConfig) {
   let arr = [];
 
   for (let bracket of str){
-    let index = brackets.indexOf(brackets);
+    let index = brackets.indexOf(bracket);
 
     if (index % 2 === 0) {
 
